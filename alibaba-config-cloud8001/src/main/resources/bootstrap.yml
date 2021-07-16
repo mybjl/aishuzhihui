@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: nacos-config8001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: f225b328-9e66-40d1-a2cd-c0ba40bf5fb0
+        group: A_GROUP
